@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Code Editor</title>
+	<link rel="stylesheet" type="text/css" href="code_editor_style.css">
+     <script type="text/javascript" src="main.js"></script>
+
+     <script src="go.js"></script>
+
+
+</head>
+
+<body>
+     <div class="container">
+     	
+     	<dir class="code-section">
+     		<div class="code-section-title">
+                  <div class="code-editor"> Code Editor</div>        
+               </div>
+               <textarea id="codeText" type="text" class="code-section-body"></textarea>
+               <textarea id="outputText" type="text" class="code-section-body2"></textarea>
+               <div class="code-section-footer">
+                   <button onclick="JavaScript:runCode()" class="code-section-footer-save">Run</button>
+                   <button onclick="JavaScript:drawText()" class="code-section-footer-draw">Draw</button>
+               
+               </div>
+     	</dir>
+
+     	<dir class="output-section">
+     		<div class="output-section-title">
+                  <div class="output-section-title-text"> Output </div>        
+               </div>
+              
+               <!--<textarea id="outputText" type="text" class="output-section-body"></textarea>-->
+               <div id="myDiagramDiv"  class="output-section-body" >
+               </div>
+               
+                <div class="output-section-footer">
+                      <div class="output-section-footer-text">By @MahmoudTantora</div>
+                </div>
+     	</dir>
+
+     </div>
+
+   
+       
+</body>
+
+</html>
